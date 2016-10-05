@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin1.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crete Round'), local('CreteRound-Regular'), url(../fonts/latin2.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin3.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Crete Round';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.contant {
+  float: left;
+  width: 100%;
+}
+.contant section.gray-bg {
+  background-color: #f7f7f7;
+}
+.contant section {
+  padding: 30px 0px;
+  text-align: center;
+  float: left;
+  width: 100%;
+  background-color: #fff;
+}
+.contant .sec-header h3 {
+  font-size: 44px;
+  color: #171717;
+  line-height: 42px;
+  margin: 0px 0px 10px 0px;
+}
+.teachers .text h3 {
+  font-family: 'Crete Round', serif;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 24px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+}
+.teachers .text p {
+  font-size: 16px;
+}
+.zaro .contant .sec-header {
+  float: left;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.zaro .contant .sec-header p {
+  font-size: 21px;
+  font-family: 'Crete Round', serif;
+  font-style: italic;
+  position: relative;
+  color: #00a685;
+  margin: 0;
+}
+.zaro .contant .sec-header span {
+  height: 10px;
+  width: 10px;
+  background-color: #aaaaaa;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.zaro .contant .social-icons a {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  height: 30px;
+  width: 20px;
+  padding: 5px 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.zaro .teachers {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 47px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.zaro .teachers .social-icons {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  margin: 0px 0px 3px 0px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.zaro .teachers .social-icons a {
+  transition: all 0.3s ease-in-out;
+  color: #00a685;
+  font-size: 16px;
+  height: 30px;
+  width: 20px;
+  display: inline-block;
+  padding: 5px 0px;
+}
+.zaro .teachers .social-icons a:hower {
+  background-color: #00a685;
+}
+.zaro .teachers .thumb {
+  float: left;
+  width: 100%;
+}
+.zaro .teachers .thumb img {
+  width: 100%;
+}
+.zaro .teachers .text {
+  transition: all 0.3s ease-in-out;
+  background-color: #2c2c2c;
+  float: left;
+  width: 100%;
+  padding: 0;
+  box-shadow: 0px -17px 18px -7px rgba(0,0,0,0.5);
+}
+.zaro .teachers .text p {
+  transition: all 0.3s ease-in-out;
+  color: #00a685;
+  font-weight: 600;
+}
+.zaro .teachers .text a {
+  color: #fff;
+  text-decoration: none;
+}
+.zaro .teachers .text h2 {
+  margin-bottom: 0;
+}
+.zaro .teachers a i:hower {
+  background-color: #00a685;
+}
+.zaro .teachers:hover .social-icons {
+  top: -33px;
+  opacity: 1;
+}
+.zaro .teachers:hover .text {
+  background-color: #00a685;
+}
+.zaro .teachers:hover .text p {
+  color: #FFF;
+}
+@media (max-width: 768px) {
+  .zaro .contant .sec-header h3 {
+    font-size: 23px;
+    margin: 0;
+  }
+  .zaro .zaro .teachers {
+    margin-bottom: 25px;
+  }
+  .zaro .zaro .teachers .text {
+    padding: 0;
+  }
+}
