@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>TODO supply a title</title>
+        <title>Header</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php
@@ -55,7 +55,7 @@
                     <div class="container">
 
                         <div class="row">
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-4 col-sm-4 col-sm-fix">
                                 <div class="logo ">
                                     <a href="#">
                                         <img src="images/logo.png"  >
@@ -72,73 +72,116 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-8 col-sm-12">
                                 <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse navbar-ex1-collapse ">
-                                    <div class="navbar ">
-                                        <div class="navbar-inner ">
-                                            <div class="nav navbar-nav ">
-                                                <div class="ie-nav-fix">
-                                                    <ul>
-                                                        <li>
-                                                            <div class="dropdown">
-                                                                <a class="dropbtn" id="account" role="button" data-toggle="dropdown" data-target="#" href="/">
-                                                                    Home
-                                                                </a>
-                                                                <ul class="dropdown-menu" role="menu" aria-labelledby="account">
-                                                                    <li><a href="#">Profile</a></li>
-                                                                    <li><a href="#">Account Setting</a></li>
-                                                                    <li><a href="#">Privacy Setting</a></li>
-                                                                </ul>
+                                <nav class="nav-fix">
+                                    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+                                        <ul>
+                                            <div class="row">
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button class="dropbtn ie-dropbtn">
+                                                            <div class=" cat-name">
+                                                                <p>Home</p>
                                                             </div>
-                                                        </li>
-                                                        <li><a href="#">Blog</a>
-                                                            <!--                                        <ul>
-                                                                                                        <li><a href="blog.html">Blog</a></li>
-                                                                                                        <li><a href="blog-detail.html">Blog Detail</a></li>
-                                                                                                    </ul>-->
-                                                        </li>
-                                                        <li><a href="#">Services</a></li>
-                                                        <li><a href="#">Events</a>
-                                                            <!--                                        <ul>
-                                                                                                        <li><a href="events.html">Events</a></li>
-                                                                                                        <li><a href="events-detail.html">Event Detail</a></li>
-                                                                                                    </ul>-->
-                                                        </li>
-                                                        <li><a href="#">Courses</a>
-                                                            <!--                                        <ul>
-                                                                                                        <li><a href="courses.html">Courses</a></li>
-                                                                                                        <li><a href="courses-detail.html">Course Detail</a></li>
-                                                                                                    </ul>-->
-                                                        </li>
-                                                        <li><a href="javascript:void(0)">Pages</a>
-                                                            <!--                                        <ul>
-                                                                                                        <li><a href="about-us.html">About us</a></li>
-                                                                                                        <li><a href="404.html">Error 404</a></li>
-                                                                                                        <li><a href="faq.html">FAQs</a></li>
-                                                                                                        <li><a href="gallery.html">Gallery</a></li>
-                                                                                                        <li><a href="news.html">News</a></li>
-                                                                                                        <li><a href="our-lessons.html">Our Lessons</a></li>
-                                                                                                        <li><a href="search-result.html">Search Result</a></li>
-                                                                                                        <li><a href="signin.html">Sign In</a></li>
-                                                                                                        <li><a href="student-login.html">Student Login</a></li>
-                                                                                                        <li><a href="student-profile.html">Student Profile</a></li>
-                                                                                                        <li><a href="teacher-profile.html">Teacher Profile</a></li>
-                                                                                                        <li><a href="team.html">Our Team</a></li>
-                                                                                                        <li><a href="edit-profile.html">Edit Your Profile</a></li>
-                                                                                                    </ul>-->
-                                                        </li>
-                                                        <li><a href="#">Contact Us</a></li>
-                                                    </ul>
-                                                </div>
+                                                        </button>
+                                                        <div class="dropdown-content">
+                                                            <a href="#">Pagesilder layout</a>
+                                                            <a href="#">Corporate layout</a>
+                                                            <a href="#">New layout</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button class="dropbtn ie-dropbtn">
+                                                            <div class=" cat-name">
+                                                                <p>Blog</p>
+                                                            </div>
+                                                        </button>
+                                                        <div class="dropdown-content">
+                                                            <a href="#">Pagesilder layout</a>
+                                                            <a href="#">Corporate layout</a>
+                                                            <a href="#">New layout</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button class="dropbtn ie-dropbtn">
+                                                            <div class=" cat-name">
+                                                                <p>Services</p>
+                                                            </div>
+                                                        </button>
+                                                        <div class="dropdown-content">
+                                                            <a href="#">Pagesilder layout</a>
+                                                            <a href="#">Corporate layout</a>
+                                                            <a href="#">New layout</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button class="dropbtn ie-dropbtn">
+                                                            <div class=" cat-name">
+                                                                <p>Events</p>
+                                                            </div>
+                                                        </button>
+                                                        <div class="dropdown-content">
+                                                            <a href="#">Pagesilder layout</a>
+                                                            <a href="#">Corporate layout</a>
+                                                            <a href="#">New layout</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button class="dropbtn ie-dropbtn">
+                                                            <div class=" cat-name">
+                                                                <p>Courses</p>
+                                                            </div>
+                                                        </button>
+                                                        <div class="dropdown-content">
+                                                            <a href="#">Pagesilder layout</a>
+                                                            <a href="#">Corporate layout</a>
+                                                            <a href="#">New layout</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown">
+                                                        <button class="dropbtn ie-dropbtn">
+                                                            <div class=" cat-name">
+                                                                <p>Pages</p>
+                                                            </div>
+                                                        </button>
+                                                        <div class="dropdown-content">
+                                                            <a href="#">Blog</a>
+                                                            <a href="#">Blog Detail</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="dropdown">
+                                                            <button class="dropbtn ie-dropbtn">
+                                                                <div class=" cat-name">
+                                                                    <p>Contact Us</p>
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </a>
+                                                </li>
                                             </div>
-                                        </div>
+                                        </ul>
                                     </div>
-                                </div>
+                                </nav>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </body>
 </html>

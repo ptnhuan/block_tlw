@@ -30,6 +30,62 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.ie-module-2 .ie-nav .dropbtn {
+  width: auto;
+  cursor: pointer;
+  width: 80px;
+  height: 72px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+.ie-module-2 .ie-nav .dropbtn .cat-name {
+  left: 10%;
+  top: 10%;
+}
+.ie-module-2 .ie-nav .dropbtn .cat-name p {
+  margin: 0;
+  text-align: center;
+}
+.ie-module-2 .ie-nav .dropdown :hover {
+  background-color: #00a685;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+}
+.ie-module-2 .ie-nav .dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 5px;
+  z-index: 10;
+  position: absolute;
+  background-color: #00a685;
+  transition: all 0.4s ease-in-out;
+}
+.ie-module-2 .ie-nav .dropdown:hover .dropdown-content p {
+  color: #000;
+}
+.ie-module-2 .ie-nav .dropdown {
+  top: -20px;
+}
+.ie-module-2 .ie-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: all 0.4s ease-in-out;
+}
+.ie-module-2 .ie-nav .dropdown-content a:hover {
+  position: relative;
+  transition: transform .2s ease-out;
+  z-index: 10;
+  color: #000;
+  background-color: #fff;
+}
+.ie-module-2 .ie-nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
 .ie-module-2 .ie-tophr {
   border-top: 5px solid;
   border-color: #00a685;
@@ -117,22 +173,77 @@
 .ie-module-2 .ie-nav .ie-nav-fix ul li a span {
   margin: 0px 0px 0px 5px;
 }
-@media (max-width: 992px) and (min-width: 860px) {
-  .ie-module-2 .ie-nav-fix ul {
+@media (max-width: 992px) and (min-width: 768px) {
+  .ie-module-2 .ie-nav .dropbtn {
+    cursor: pointer;
+    width: 80px;
+    height: 72px;
+  }
+  .ie-module-2 .ie-nav .col-sm-fix {
+    left: 33.33%;
+  }
+  .ie-module-2 .ie-nav img {
+    width: 100%;
+  }
+  .ie-module-2 .ie-nav .dropdown {
+    position: relative;
+    width: auto;
+    height: 72px;
+    top: 5px;
+  }
+  .ie-module-2 .ie-nav .nav-fix {
+    position: absolute;
+  }
+  .ie-module-2 .ie-nav .nav-fix ul {
+    padding-left: 50px;
+  }
+  .ie-module-2 .ie-nav .nav-fix ul li {
     float: left;
-    margin-left: 20px;
-    padding: 0px;
     list-style: none;
   }
-  .ie-module-2 .ie-nav-fix ul li {
+  .ie-module-2 .ie-nav .nav-fix ul li a {
+    color: #000;
+  }
+  .ie-module-2 .dropbtn {
+    height: 62px !important;
+  }
+}
+@media (max-width: 768px) {
+  .ie-module-2 .ie-nav .dropdown {
+    position: relative !important;
+    top: 0;
+    border-bottom: 1px solid #eee;
+  }
+  .ie-module-2 .ie-nav .nav-fix ul {
+    backgound: #000;
+  }
+  .ie-module-2 .ie-nav .nav-fix ul li {
+    padding: 5px 10px;
+    list-style: none;
+  }
+  .ie-module-2 .ie-nav .nav-fix ul li a {
+    color: #000;
+  }
+  .ie-module-2 .ie-nav .nav-fix ul li p {
+    text-align: left !important;
+  }
+  .ie-module-2 .ie-nav .dropbtn {
+    height: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .ie-module-2 .ie-nav .dropdown {
+    position: absolute;
+  }
+  .ie-module-2 .nav-fix {
+    position: absolute;
+  }
+  .ie-module-2 .nav-fix ul li {
     float: left;
-    padding: 0px 5px !important;
+    list-style: none;
+    padding: 40px;
   }
-  .ie-module-2 .ie-nav-fix ul li a {
-    color: #252525;
-    text-decoration: none;
-  }
-  .ie-module-2 .ie-nav-fix ul li a span {
-    margin: 0px 0px 0px 5px;
+  .ie-module-2 .nav-fix ul li a {
+    color: #000;
   }
 }
