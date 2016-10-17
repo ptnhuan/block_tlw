@@ -1,0 +1,133 @@
+@media (max-width: 992px) {
+  .ie-module-10 .student-form {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .ie-module-10 img {
+    display: none !important;
+  }
+  .ie-module-10 .student-form {
+    padding: 0 !important;
+  }
+}
+.ie-module-10 .form {
+  text-align: center;
+}
+.ie-module-10 .form .form-contant {
+  float: left;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  padding: 20px 0px 0px 0px;
+}
+.ie-module-10 .form .relative {
+  position: relative;
+}
+.ie-module-10 .form .form-fields {
+  z-index: 500;
+  position: relative;
+}
+.ie-module-10 .form .student-form {
+  float: left;
+  width: 100%;
+  text-align: left;
+  padding: 20px 130px 0 0;
+}
+.ie-module-10 .form .student-form .header {
+  float: left;
+  width: 100%;
+}
+.ie-module-10 .form .student-form .header h2 {
+  font-size: 36px;
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  margin: 0px 0px 15px 0px;
+  font-weight: normal;
+}
+.ie-module-10 .form .student-form .header p {
+  color: #00a685;
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  line-height: 26px;
+  font-style: italic;
+}
+.ie-module-10 .form .student-form form-data {
+  float: left;
+  width: 100%;
+}
+.ie-module-10 .form .student-form .form-data .input input {
+  width: 100%;
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  padding: 6px 20px;
+}
+.ie-module-10 .form .student-form .form-data ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.ie-module-10 .form .student-form .form-data ul li {
+  float: left;
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
+.ie-module-10 .form .student-form .form-data button {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  float: right;
+  background-color: #00a685;
+}
+.ie-module-10 .skrollable {
+  position: absolute;
+  z-index: 100;
+}
+.ie-module-10 #bg1,
+.ie-module-10 #bg2,
+.ie-module-10 #bg3 {
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/p-bg1.png) repeat 0 0;
+  background-position: 0px -314.936px;
+  background-attachment: fixed;
+}
+.ie-module-10 #bg2 {
+  z-index: 49;
+  background-image: url(../images/p-bg2.png);
+  background-position: 0px -472.404px;
+}
+.ie-module-10 #bg3 {
+  z-index: 48;
+  background-image: url(../images/p-bg3.png);
+  background-position: 0px -283.442px;
+}
+.ie-module-10 .gender {
+  margin: 15px 0px;
+}
+.ie-module-10 .gender,
+.ie-module-10 .gender span,
+.ie-module-10 .gender span input,
+.ie-module-10 .gender span label {
+  float: left;
+  font-size: 18px;
+  color: #868d8b;
+}
+.ie-module-10 .gender span {
+  padding: 0px 20px 0px 0px;
+}
+.ie-module-10 .gender span input {
+  margin: 5px 10px 0px 0px;
+}
+@media (min-width: 1200px) {
+  .ie-module-10 .span6 {
+    width: 570px;
+  }
+}
