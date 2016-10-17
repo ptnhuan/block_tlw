@@ -50,6 +50,7 @@
                     <div data-target="#myCarousel" data-slide-to="2"><a href="#">-</a></div>
                     <div data-target="#myCarousel" data-slide-to="3"><a href="#">-</a></div>
                 </div>
+
             </div>
             <div class="newsletters">
                 <h1>Start 30-Day free trial today.</h1>

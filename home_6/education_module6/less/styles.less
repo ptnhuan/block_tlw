@@ -41,6 +41,68 @@
 
 .ie-module-6{
 
+
+    @media (max-width:768px){
+        .newsletters{
+            top:30% !important;
+            h1{
+                font-size: 30px !important;
+                line-height: 30px;
+            }
+            h4{
+                font-size: 18px;
+                line-height: 18px;
+                display: none !important;
+            }
+            .subscribe {
+                .ie-btn{
+                    min-height: 40px !important;
+                }
+                .ie-text{
+                    min-height: 40px !important;
+                    padding: 0px 60px 0px 20px !important;
+                }
+            }
+        }
+        .nav-pills a {
+            left: 10% !important;
+        }
+    }
+
+    @media(max-width:480px){
+        .newsletters{
+            display: none;
+        }
+        .nav-pills{
+            display: none;
+        }
+    }
+    @media(min-width:992px){
+        .newsletters{
+            top: 50%;
+            h1{
+                font-size: 72px;
+                line-height: 72px;
+            }
+            h4{
+                font-size: 26px;
+                line-height: 26px;
+            }
+        }
+    }
+    @media(max-width:1010px){
+        .newsletters{
+            top: 40%;
+            h1{
+                font-size: 40px;
+                line-height: 42px;
+            }
+            h4{
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+    }
     /*slideshow*/
     body    {
         padding-top: 20px;
@@ -51,7 +113,7 @@
     .nav-justified  > a    {
         border-radius: 0px;
     }
-    .nav-pills>[data-slide-to="0"].active a {  margin-left: 40%;background-color: #00a685; }
+    .nav-pills>[data-slide-to="0"].active a {  background-color: #00a685; }
     .nav-pills>[data-slide-to="1"].active a { background-color: #00a685;}
     .nav-pills>[data-slide-to="2"].active a { background-color: #00a685; }
     .nav-pills>[data-slide-to="3"].active a { 
@@ -74,6 +136,8 @@
             margin: 0 5px;
             outline: 0;
             float:left;
+            position: relative;
+            left: 35%;
         }
     }
 
@@ -83,19 +147,15 @@
         width: 100%;
         text-align: center;
         position: absolute;
-        top: 50%;
+
         z-index: 200;
         margin: -115px 0px 0px 0px;
         h1{
-            font-size: 72px;
-            line-height: 72px;
             color: #fff;
             margin: 0px 0px 30px 0px;
         }
         h4{
             color: #fff;
-            font-size: 26px;
-            line-height: 26px;
         }
         .subscribe {
             .ie-text{
