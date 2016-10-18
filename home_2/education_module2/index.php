@@ -76,105 +76,73 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <nav class="nav-fix">
                                     <div class="collapse navbar-collapse navbar-ex1-collapse ">
-                                        <ul>
-                                            <div class="row">
-                                                <li>
-                                                    <div class="dropdown">
-                                                        <button class="dropbtn ie-dropbtn">
-                                                            <div class=" cat-name">
-                                                                <p>Home</p>
-                                                            </div>
-                                                        </button>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Pagesilder layout</a>
-                                                            <a href="#">Corporate layout</a>
-                                                            <a href="#">New layout</a>
-                                                        </div>
-                                                    </div>
+                                        <div class="row">
+                                            <ul>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p>Home</p> <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                        <li><a href="#">One more separated link</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <div class="dropdown">
-                                                        <button class="dropbtn ie-dropbtn">
-                                                            <div class=" cat-name">
-                                                                <p>Blog</p>
-                                                            </div>
-                                                        </button>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Pagesilder layout</a>
-                                                            <a href="#">Corporate layout</a>
-                                                            <a href="#">New layout</a>
-                                                        </div>
-                                                    </div>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p class="center-block"> Blog</p> <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                        <li><a href="#">One more separated link</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <div class="dropdown">
-                                                        <button class="dropbtn ie-dropbtn">
-                                                            <div class=" cat-name">
-                                                                <p>Services</p>
-                                                            </div>
-                                                        </button>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Pagesilder layout</a>
-                                                            <a href="#">Corporate layout</a>
-                                                            <a href="#">New layout</a>
-                                                        </div>
-                                                    </div>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p class="center-block">Services</p> </a>
                                                 </li>
-                                                <li>
-                                                    <div class="dropdown">
-                                                        <button class="dropbtn ie-dropbtn">
-                                                            <div class=" cat-name">
-                                                                <p>Events</p>
-                                                            </div>
-                                                        </button>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Pagesilder layout</a>
-                                                            <a href="#">Corporate layout</a>
-                                                            <a href="#">New layout</a>
-                                                        </div>
-                                                    </div>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p class="center-block"> Events</p> <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                        <li><a href="#">One more separated link</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <div class="dropdown">
-                                                        <button class="dropbtn ie-dropbtn">
-                                                            <div class=" cat-name">
-                                                                <p>Courses</p>
-                                                            </div>
-                                                        </button>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Pagesilder layout</a>
-                                                            <a href="#">Corporate layout</a>
-                                                            <a href="#">New layout</a>
-                                                        </div>
-                                                    </div>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p class="center-block">Courses</p> <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                        <li><a href="#">One more separated link</a></li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <div class="dropdown">
-                                                        <button class="dropbtn ie-dropbtn">
-                                                            <div class=" cat-name">
-                                                                <p>Pages</p>
-                                                            </div>
-                                                        </button>
-                                                        <div class="dropdown-content">
-                                                            <a href="#">Blog</a>
-                                                            <a href="#">Blog Detail</a>
-                                                        </div>
-                                                    </div>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p class="center-block"> Pages</p> <b class="caret"></b></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                        <li><a href="#">Separated link</a></li>
+                                                        <li><a href="#">One more separated link</a></li>
+                                                    </ul>
                                                 </li>
-
-                                                <li>
-                                                    <a href="#">
-                                                        <div class="dropdown">
-                                                            <button class="dropbtn ie-dropbtn">
-                                                                <div class=" cat-name">
-                                                                    <p>Contact Us</p>
-                                                                </div>
-                                                            </button>
-                                                        </div>
-                                                    </a>
+                                                <li class="dropdown ie-li" >
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                        <p class="center-block">Contact Us</p></a>
                                                 </li>
-                                            </div>
-                                        </ul>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </nav>
                             </div>
