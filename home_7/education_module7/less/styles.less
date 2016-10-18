@@ -1,0 +1,128 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+
+.ie-module-7{
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+        color: #00a685;
+    }
+    .ie-tab-fix{
+        li{
+            text-align: center;
+            margin:0;
+            left: 3%;
+            a{
+                padding: 15px 25px;
+                font-size: 16px;
+                color: #d3d3d3;
+                i{
+                    font-size: 43px;
+                }
+            }
+        }
+
+        li.active {
+            a{
+                color: #00a685;
+            }
+        }
+        li.active>a:hower {
+            color: #00a685;
+        }
+
+    }
+    .ie-content-fix{
+        li {
+            margin-bottom: 30px;
+            margin-top: 30px;
+            list-style: none;
+        }
+        .thumb {
+            img{
+                border-radius: 100%;
+                float:left;
+            }
+        }
+        .text{
+            padding: 0px 0px 0px 153px;
+            text-align: left;
+            h4{
+                color: #00a685;
+                font-size: 20px;
+                line-height: 20px;
+                font-family: 'Crete Round',serif;
+                font-weight: normal;
+                margin: 10px 0;
+            }
+            p{
+                margin: 0 0 10px;
+            }
+            span{
+                font-size: 30px;
+                color: #00a685;
+                line-height: 20px;
+                font-family: 'Crete Round',serif;
+                font-weight: normal;
+                margin: 10px 0;
+            }
+        }
+    }
+
+
+
+
+
+    @media (max-width:680px){
+    }
+    @media(max-width:480px){
+        li{
+            width:100%;
+            i{
+                font-size: 20px !important;
+                float: left;
+            }
+        }
+
+    }
+    @media(min-width:992px){
+    }
+    @media(max-width:1010px){
+    }
+}
