@@ -20,7 +20,7 @@
     </head> 
 
     <body> 
-        <div class="zaro">
+        <div class="our-teachers">
             <div class="contant">
                 <section class="gray-bg">
                     <div class="container">
