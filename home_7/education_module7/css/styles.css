@@ -35,10 +35,14 @@
 .ie-module-7 .nav-tabs>li.active>a:hover {
   color: #00a685;
 }
+.ie-module-7 .ie-tab-fix {
+  text-align: center;
+}
 .ie-module-7 .ie-tab-fix li {
   text-align: center;
   margin: 0;
-  left: 3%;
+  display: inline-block;
+  float: none;
 }
 .ie-module-7 .ie-tab-fix li a {
   padding: 15px 25px;
