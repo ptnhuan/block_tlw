@@ -43,6 +43,57 @@
   background-size: cover;
   background-image: url(../images/testimonials-bg.jpg);
 }
+@media (min-width: 1200px) {
+  .ie-module-9 .testimonial-data {
+    padding: 0px 0px 0px 490px !important;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .ie-module-9 .testimonial-data {
+    padding: 0px 0px 0px 360px !important;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .ie-module-9 .testimonial-data {
+    padding: 0px 0px 0px 280px !important;
+  }
+  .ie-module-9 .testimonial-data .testimonial-text {
+    padding: 0 !important;
+  }
+  .ie-module-9 .testimonial-data .testimonial-text p {
+    z-index: 999999;
+    position: relative;
+  }
+  .ie-module-9 .sec-header h2 {
+    font-size: 32px !important;
+    line-height: 32px !important;
+  }
+  .ie-module-9 .sec-header p {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  .ie-module-9 .testimonial-data {
+    padding: 0 !important;
+  }
+  .ie-module-9 .sec-header h2 {
+    font-size: 22px !important;
+    line-height: 22px !important;
+  }
+  .ie-module-9 .sec-header p {
+    font-size: 16px !important;
+  }
+  .ie-module-9 .testimonial-text p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+  .ie-module-9 .side-imgage {
+    display: none;
+  }
+  .ie-module-9 #bx-pager {
+    display: none;
+  }
+}
 .ie-module-9 .ie-pg {
   background-size: cover;
   background-image: url(../images/testimonials-bg.jpg);
@@ -87,14 +138,14 @@
 .ie-module-9 .testimonial-contant .side-imgage {
   position: absolute;
   left: 0px;
-  width: auto;
   bottom: -60px;
+  width: 40%;
 }
 .ie-module-9 .testimonial-contant .side-imgage img {
   height: auto;
-  max-width: 100%;
   vertical-align: middle;
   border: 0;
+  max-width: 100%;
 }
 .ie-module-9 .testimonial-contant #bx-pager {
   margin: 30px 0px 0px 30px;
@@ -135,7 +186,6 @@
   border: 0;
 }
 .ie-module-9 .testimonial-data {
-  padding: 0px 0px 0px 490px;
   float: left;
   width: 100%;
   position: relative;
@@ -179,6 +229,7 @@
   line-height: 35px;
 }
 .ie-module-9 .testimonial-data .testimonial-text a {
+  text-decoration: none;
   font-family: 'Pacifico', cursive;
   font-size: 30px;
   color: #00a685;

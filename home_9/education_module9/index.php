@@ -35,7 +35,7 @@
                 <div id="main_area">
                     <!-- Slider -->
                     <div class="row">
-                        <div class="col-xs-12" id="slider">
+                        <div class="" id="slider">
                             <!-- Top part of the slider -->
                             <div class="row">
                                 <div class="testimonial-data" id="carousel-bounding-box">
