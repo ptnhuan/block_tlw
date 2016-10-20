@@ -33,7 +33,7 @@
                         <span></span>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-6 col-xs-12 ie-mg">
                             <div class="post">
                                 <div class="thumb">
                                     <img src="images/post.png" alt="">
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-md-6 col-sm-6 col-xs-12 ie-mg">
                             <div class="post">
                                 <div class="thumb">
                                     <img src="images/post.png" alt="">

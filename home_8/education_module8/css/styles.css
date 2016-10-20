@@ -33,6 +33,11 @@
 .ie-module-8 {
   background-color: #00a685;
 }
+@media (max-width: 768px) {
+  .ie-module-8 .ie-mg {
+    margin-top: 70px;
+  }
+}
 .ie-module-8 .ie-pg {
   padding: 60px 0px;
   background-size: cover;
