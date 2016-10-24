@@ -24,7 +24,6 @@
             <div class="contant">
                 <section class="gray-bg">
                     <div class="container">
-
                         <div class="sec-header">
                             <h3><strong>Our Teachers</strong></h3>
                             <p>Discover courses by topic</p>
@@ -129,10 +128,5 @@
                 </section>
             </div>
         </div>
-
-    </script>
-
-</body>
-
-
+    </body>
 </html>

@@ -22,7 +22,11 @@
   font-weight: 400;
   src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
 }
-* {
+.ie-module-8 {
+  margin: 30px 0px;
+  background-color: #00a685;
+}
+.ie-module-8 * {
   margin: 0px;
   padding: 0px;
   outline: none;
@@ -30,16 +34,8 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-.ie-module-8 {
-  background-color: #00a685;
-}
-@media (max-width: 768px) {
-  .ie-module-8 .ie-mg {
-    margin-top: 70px;
-  }
-}
 .ie-module-8 .ie-pg {
-  padding: 60px 0px;
+  padding-top: 60px;
   background-size: cover;
   background-image: url(../images/ipad.png);
   z-index: 0;
@@ -171,7 +167,6 @@
   text-align: -webkit-match-parent;
 }
 .ie-module-8 .ie-pg .post-contant .post .text {
-  text-decoration: none;
   float: left;
   width: 100%;
   position: relative;
@@ -207,4 +202,7 @@
   right: 0px;
   margin: auto;
   background-color: #00a685;
+}
+.ie-module-8 .ie-pg .post-contant .post .text a {
+  text-decoration: none;
 }

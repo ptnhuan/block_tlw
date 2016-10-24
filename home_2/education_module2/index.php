@@ -16,7 +16,7 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
+        
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head> 
@@ -36,7 +36,6 @@
                                     <div class="dropdown">
                                         <a class="dropdown-toggle" id="account" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
                                             My Account
-                                            <b class="caret"></b>
                                         </a>
                                         <ul class="dropdown-menu" role="menu" aria-labelledby="account">
                                             <li><a href="#">Profile</a></li>
@@ -75,7 +74,7 @@
                             <div class="col-md-8 col-sm-12">
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <nav class="nav-fix">
-                                    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+                                    <div class="collapse navbar-collapse navbar-ex1-collapse">
                                         <div class="row">
                                             <ul>
                                                 <li class="dropdown ie-li" >

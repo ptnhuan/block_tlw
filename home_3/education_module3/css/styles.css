@@ -30,6 +30,9 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.our-teachers .teachers {
+  margin: 30px 0px;
+}
 .our-teachers .teachers .text h3 {
   font-family: 'Crete Round', serif;
   font-size: 24px;
@@ -96,7 +99,6 @@
   width: 100%;
   position: relative;
   margin-top: 47px;
-  margin-left: 10px;
 }
 .our-teachers .teachers .social-icons {
   float: left;

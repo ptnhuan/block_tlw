@@ -23,7 +23,6 @@
 
     <body> 
         <div class="ie-module-9">
-
             <div class="container testimonial-contant">
                 <div class="sec-header">
                     <h2>Read Our Testimonials</h2>
@@ -100,35 +99,35 @@
                 </div>
                 <div class="testimonial-data">
                     <div id="bx-pager">
-                        <a id="carousel-selector-0">
+                        <a id="carousel-selector-0" href="#">
                             <div class="thumb">
                                 <img src="images/student-testi1.jpg" alt="">
                             </div>
                             <p>Naiana Ansa</p>
                             <p class="color">guitarist</p>
                         </a>
-                        <a id="carousel-selector-1" class="">
+                        <a id="carousel-selector-1" href="#">
                             <div class="thumb">
                                 <img src="images/student-testi2.jpg" alt="">
                             </div>
                             <p>Jasmine Dou</p>
                             <p class="color">student</p>
                         </a>
-                        <a id="carousel-selector-2">
+                        <a id="carousel-selector-2" href="#">
                             <div class="thumb">
                                 <img src="images/student-testi3.jpg" alt="">
                             </div>
                             <p>David john</p>
                             <p class="color">student</p>
                         </a>
-                        <a id="carousel-selector-3" class="">
+                        <a id="carousel-selector-3" href="#">
                             <div class="thumb">
                                 <img src="images/student-testi4.jpg" alt="">
                             </div>
                             <p>Roth Brown</p>
                             <p class="color">Artist</p>
                         </a>
-                        <a id="carousel-selector-4" class="">
+                        <a id="carousel-selector-4" href="#">
                             <div class="thumb">
                                 <img src="images/student-testi5.jpg" alt="">
                             </div>
@@ -139,9 +138,15 @@
                 </div>
                 <div class="side-imgage"><img src="images/testimonials-bg2.png" alt=""></div>
             </div>
-            <div class="ie-pg">
-
+            <div id="bg5" data-0="background-position:0px 0px;"
+                 data-end="background-position:0px -1800px;" 
+                 class="skrollable skrollable-between" 
+                 style="background-position: 0px -1341.35px;">
             </div>
+            <a class="carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="fa fa-chevron-circle-right"></span>                                       
+            </a>
+            
         </div>
     </body>
 </html>
