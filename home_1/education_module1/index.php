@@ -13,13 +13,12 @@
         $less->compileFile('less/styles.less', 'css/styles.css');
         ?> 
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     </head> 
 
     <body> 
-        <div class="zaro">
+        <div class="ie-module-1">
     
             <div class="contant"> 
                 <section>
@@ -35,7 +34,7 @@
 
                         <div class="row">
 
-                            <div class="span4">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="services">
                                     <div class="header">
                                         <i class="fa fa-tablet"></i>
@@ -49,7 +48,7 @@
                             </div>
 
 
-                            <div class="span4">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="services">
                                     <div class="header">
                                         <i class="fa fa-tablet"></i>
@@ -63,7 +62,7 @@
                             </div>
 
 
-                            <div class="span4">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="services">
                                     <div class="header">
                                         <i class="fa fa-tablet"></i>
