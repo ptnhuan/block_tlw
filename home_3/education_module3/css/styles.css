@@ -22,13 +22,8 @@
   font-weight: 400;
   src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
 }
-.our-teachers {
-  margin: 0px;
-  padding: 0px;
-  outline: none;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+.our-teachers .ie-padding-teacher {
+  padding: 0;
 }
 .our-teachers .teachers {
   margin: 30px 0px;

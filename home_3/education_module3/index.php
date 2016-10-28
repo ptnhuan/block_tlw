@@ -13,8 +13,6 @@
         $less->compileFile('less/styles.less', 'css/styles.css');
         ?>  
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head> 
@@ -33,7 +31,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 ie-padding-teacher">
                                 <div class="col-md-3  col-sm-3 col-xs-12  ">
                                     <div class="teachers">
                                         <div class="social-icons">
