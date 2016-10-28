@@ -1,0 +1,318 @@
+.all .contant {
+  float: left;
+  width: 100%;
+}
+.all .contant section.gray-bg {
+  background-color: #f7f7f7;
+}
+.all .contant .sec-header {
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 0px 0px 40px 0px;
+}
+.all .contant .sec-header p {
+  font-size: 24px;
+  font-family: 'Crete Round', serif;
+  font-style: italic;
+  position: relative;
+  color: #00a685;
+}
+.all .contant .sec-header span {
+  height: 10px;
+  width: 10px;
+  background-color: #aaaaaa;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.all .sec-header h2 {
+  font-size: 42px;
+  color: #171717;
+  line-height: 42px;
+  margin: 0px 0px 20px 0px;
+}
+.all .course {
+  margin: 15px 0px 0px 0px;
+}
+.all .course .thumb {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.all .course .thumb img {
+  width: 100%;
+}
+.all .course .price {
+  transition: all 0.3s ease-in-out;
+  background-color: #00a685;
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  padding: 25px 0px;
+  opacity: 0;
+  line-height: 40px;
+  visibility: hidden;
+}
+.all .course .price span {
+  font-size: 30px;
+  vertical-align: top;
+  line-height: 30px;
+}
+.all .course .text {
+  float: left;
+  width: 100%;
+}
+.all .course .text div {
+  float: left;
+  width: 100%;
+}
+.all .course .text h4 {
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+  color: #00a685;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: -10px;
+}
+.all .course .header {
+  padding: 0px 10px;
+}
+.all .course .course-name p {
+  display: inline-block;
+}
+.all .course .course-name span {
+  float: right;
+  color: #00a685;
+}
+.all .course div.rating {
+  float: right;
+  width: auto;
+  margin: 8px -10px 0px 0px;
+}
+.all .course .rating>span {
+  color: #ffd200;
+  width: auto;
+}
+.all .course .course-detail-btn {
+  margin: 10px 0px 0px 0px;
+  border-top: solid 1px rgba(0,0,0,0.1);
+}
+.all .course .course-detail-btn a:first-child {
+  border: none;
+}
+.all .course .course-detail-btn a {
+  transition: all 0.3s ease-in-out;
+  width: 50%;
+  padding: 15px 15px;
+  color: #7c7c7c;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+  border-left: 1px #fff solid;
+}
+.all .course .course-detail-btn a:hover {
+  background-color: #00a685;
+  color: #fff;
+  text-decoration: none;
+}
+.all .course:hover img {
+  opacity: 0.5;
+  width: 100%;
+}
+.all .course:hover .price {
+  opacity: 1;
+  top: -15px;
+  left: -15px;
+  visibility: visible;
+}
+.all .carousel-control {
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  float: right;
+  opacity: .45;
+  width: 2%;
+  z-index: 999;
+}
+.all .carousel-control.left {
+  background-image: none;
+}
+@media (max-width: 768px) {
+  .all .carousel-control.left {
+    left: 88%;
+    top: 25%;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .all .carousel-control.left {
+    left: 90%;
+    top: 22%;
+    font-size: 20px;
+  }
+}
+.all .carousel-control.right {
+  background-image: none;
+}
+@media (max-width: 768px) {
+  .all .carousel-control.right {
+    right: 15%;
+    top: 25%;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .all .carousel-control.right {
+    right: 10%;
+    top: 22%;
+    font-size: 20px;
+  }
+}
+.all .carousel-showsixmoveone .carousel-control {
+  background-image: none;
+  color: black;
+}
+.all .carousel-showsixmoveone .carousel-control.left {
+  margin-left: 15px;
+}
+.all .carousel-showsixmoveone .carousel-control.right {
+  margin-right: 15px;
+}
+.all .carousel-showsixmoveone .cloneditem-1,
+.all .carousel-showsixmoveone .cloneditem-2,
+.all .carousel-showsixmoveone .cloneditem-3,
+.all .carousel-showsixmoveone .cloneditem-4,
+.all .carousel-showsixmoveone .cloneditem-5 {
+  display: none;
+}
+@media all and (min-width: 992px) {
+  .all .carousel-showsixmoveone .carousel-inner > .active.left,
+  .all .carousel-showsixmoveone .carousel-inner > .prev {
+    left: -33.333%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .active.right,
+  .all .carousel-showsixmoveone .carousel-inner > .next {
+    left: 33.333%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .left,
+  .all .carousel-showsixmoveone .carousel-inner > .prev.right,
+  .all .carousel-showsixmoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-1,
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-2 {
+    display: block;
+  }
+}
+@media all and (min-width: 992px) and (transform-3d),all and (min-width: 992px) and (-webkit-transform-3d) {
+  .all .carousel-showsixmoveone .carousel-inner > .item.active.right,
+  .all .carousel-showsixmoveone .carousel-inner > .item.next {
+    transform: translate3d(33.333%,0,0);
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .item.active.left,
+  .all .carousel-showsixmoveone .carousel-inner > .item.prev {
+    transform: translate3d(-33.333%,0,0);
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .item.left,
+  .all .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+  .all .carousel-showsixmoveone .carousel-inner > .item.active {
+    transform: translate3d(0,0,0);
+    left: 0;
+  }
+}
+@media (min-width: 992px) {
+  .all .carousel-showsixmoveone .carousel-inner .col-md-2 {
+    width: 25%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .active.left,
+  .all .carousel-showsixmoveone .carousel-inner > .prev {
+    left: -25%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .active.right,
+  .all .carousel-showsixmoveone .carousel-inner > .next {
+    left: 25%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .left,
+  .all .carousel-showsixmoveone .carousel-inner > .prev.right,
+  .all .carousel-showsixmoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-3,
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-4,
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-5 {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (transform-3d),(min-width: 992px) and (-webkit-transform-3d) {
+  .all .carousel-showsixmoveone .carousel-inner > .item.active.right,
+  .all .carousel-showsixmoveone .carousel-inner > .item.next {
+    transform: translate3d(25%,0,0);
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .item.active.left,
+  .all .carousel-showsixmoveone .carousel-inner > .item.prev {
+    transform: translate3d(-25%,0,0);
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .item.left,
+  .all .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+  .all .carousel-showsixmoveone .carousel-inner > .item.active {
+    transform: translate3d(0,0,0);
+    left: 0;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .all .carousel-showsixmoveone .carousel-inner .col-md-2 {
+    width: 33.33%;
+    float: left;
+  }
+  .all .carousel-showsixmoveone .carousel-inner .col-md-2 img {
+    width: 100%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .active.left,
+  .all .carousel-showsixmoveone .carousel-inner > .prev {
+    left: -25%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .active.right,
+  .all .carousel-showsixmoveone .carousel-inner > .next {
+    left: 25%;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .left,
+  .all .carousel-showsixmoveone .carousel-inner > .prev.right,
+  .all .carousel-showsixmoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-1,
+  .all .carousel-showsixmoveone .carousel-inner .cloneditem-2 {
+    display: block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) and (transform-3d),(max-width: 992px) and (min-width: 768px) and (-webkit-transform-3d) {
+  .all .carousel-showsixmoveone .carousel-inner > .item.active.right,
+  .all .carousel-showsixmoveone .carousel-inner > .item.next {
+    transform: translate3d(67%,0,0);
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .item.active.left,
+  .all .carousel-showsixmoveone .carousel-inner > .item.prev {
+    transform: translate3d(-67%,0,0);
+    left: 0;
+  }
+  .all .carousel-showsixmoveone .carousel-inner > .item.left,
+  .all .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+  .all .carousel-showsixmoveone .carousel-inner > .item.active {
+    transform: translate3d(0,0,0);
+    left: 0;
+  }
+}
